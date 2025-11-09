@@ -6,8 +6,6 @@ CREATE TRIGGER trg_InsertInventory
 AFTER INSERT ON Products
 FOR EACH ROW
 BEGIN
-    -- Inserta una nueva fila en Inventory usando el ID del producto recién insertado (NEW.id)
-    -- Asignamos una cantidad inicial de 50.
     INSERT INTO Inventory (product_id, quantity_available)
     VALUES (NEW.id, 5);
 END$$

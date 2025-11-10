@@ -1,4 +1,4 @@
-# Prueba Técnica de Base de Datos
+# Prueba Técnica de Base de Datos (MYSQL)
 
 Este repositorio contiene los scripts SQL para la prueba técnica de la capa de base de datos (DB), cuyo objetivo es validar la gestión de productos, categorías e inventario.
 
